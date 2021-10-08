@@ -8,7 +8,7 @@ import {
 import { GrMail } from "react-icons/gr";
 
 import styles from "../styles/Presentation.module.css";
-import image from "../public/images/presentation-background.jpg";
+import image from "../public/images/Code typing-bro.svg";
 
 export default function Presentation(){
     return (
@@ -28,13 +28,13 @@ export default function Presentation(){
                 </div>
                 <div className={styles.social}>
                     <a href="https://linkedin.com/in/fabrizio-tessaro" target="_blank" rel="noreferrer" aria-label="Linkedin">
-                        <BsLinkedin size={"2.5rem"}/>
+                        <BsLinkedin className={styles.icon}/>
                     </a>
                     <a href="https://github.com/fabriziotessaro" target="_blank" rel="noreferrer" aria-label="GitHub">
-                        <BsGithub size={"2.5rem"}/>
+                        <BsGithub className={styles.icon}/>
                     </a>
                     <a href="mailto:fabriziotessaro02@gmail.com" aria-label="Email">
-                        <GrMail size={"2.5rem"}/>
+                        <GrMail className={styles.icon}/>
                     </a>
                 </div>
                 <div className={styles.contactBtn}>
@@ -42,13 +42,13 @@ export default function Presentation(){
                 </div>
             </div>
             <div className={styles.image}>
-                <Image 
-                    src={image} 
-                    alt="" 
-                    layout="fill"
-                    objectFit="cover"
-                    quality={100}
-                />
+                <a href="https://storyset.com/work" target="_blank" rel="noreferrer" aria-label="Work illustrations by Storyset">
+                    <Image 
+                        src={image} 
+                        alt="" 
+                        quality={100}
+                    />
+                </a>
             </div>
         </section>
     )

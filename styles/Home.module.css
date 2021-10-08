@@ -4,13 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
+  background-color: #030308;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  position: relative;
   width: 100%;
 }
 

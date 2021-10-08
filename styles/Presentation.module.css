@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #030308;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -11,11 +10,14 @@
 .image{
     position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .presentation{
     position: relative;
-    width: 100%;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
@@ -23,7 +25,6 @@
     align-items: flex-start;
 
     gap: 30px;
-    padding: 30px;
 }
 
 .name{
@@ -43,19 +44,7 @@
     width: 40%;
 }
 
-.contactBtn button{
-    color: #EF2844;
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 8px;
-    border: 2px solid #EF2844;
-    background: transparent;
-    transition: all ease 0.5s;
-}
-
-.contactBtn button:hover{
-    cursor: pointer;
-    background: #EF2844;
-    color: #030308;
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
 }
