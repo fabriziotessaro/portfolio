@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 // components
-import Presentation from "../components/Presentation";
+import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import MyProjects from "../components/MyProjects";
 
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Presentation />
+        <Hero />
         <AboutMe />
         <MyProjects/>
       </main>
