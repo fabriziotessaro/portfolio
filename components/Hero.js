@@ -7,7 +7,7 @@ import {
 } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 
-import styles from "../styles/Presentation.module.css";
+import styles from "../styles/Hero.module.css";
 import image from "../public/images/Code typing-bro.svg";
 
 export default function Presentation(){
