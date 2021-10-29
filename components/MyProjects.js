@@ -15,6 +15,12 @@ export default function MyProjects({ myProjects }){
 					{myProjects?.map((project) => 
 						<ProjectCard key={project.id} {...project}/>
 					)}
+					<ProjectCard key={2} {...myProjects[0]}/>
+					<ProjectCard key={3} {...myProjects[0]}/>
+					<ProjectCard key={4} {...myProjects[0]}/>
+					<ProjectCard key={5} {...myProjects[0]}/>
+					<ProjectCard key={6} {...myProjects[0]}/>
+					<ProjectCard key={7} {...myProjects[0]}/>
 				</div>
 			</div>
 		</section>
