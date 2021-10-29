@@ -4,8 +4,11 @@ import Head from 'next/head'
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import MyProjects from "../components/MyProjects";
+import TechnologiesAndSkills from "../components/TechnologiesAndSkills";
 
 import styles from '../styles/Home.module.css'
+
+import myProjects from "../myProjects.json";
 
 export default function Home() {
   return (
@@ -18,7 +21,8 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <AboutMe />
-        <MyProjects/>
+        <TechnologiesAndSkills/>
+        <MyProjects myProjects={myProjects}/>
       </main>
     </div>
   )
