@@ -56,8 +56,10 @@ export default function AboutMe(){
                     </div>
                     
                     <div className={styles.cvButton}>
-                        <h2>Get Curriculum</h2> 
-                        <BsArrowRight size={"2.5rem"}/>
+                        <a href="/Fabrizio_Tessaro_CV.pdf">
+                            <h2>Get Curriculum</h2> 
+                            <BsArrowRight size={"2.5rem"}/>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,6 @@ export default function ProjectCard({ id, name, shortDescription, pictures }){
 			<div className={styles.picture}>
 				<Image
 					quality={100}
-			        objectFit="cover"
                     layout="fill"
 			        src={pictures[0]}
 			        alt={name}
