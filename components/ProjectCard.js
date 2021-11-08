@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/ProjectCard.module.css";
 
 //react-icons
@@ -19,10 +20,12 @@ export default function ProjectCard({ id, name, shortDescription, pictures }){
 				<h3>{name}</h3>
 				<div className={styles.border}></div>
 				<p>{shortDescription}</p>
-				<button>
-					View more
-					<BsArrowRight size={"2rem"}/>
-				</button>
+				<Link href={`project/${id}`}>
+					<button>
+						View more
+						<BsArrowRight size={"2rem"}/>
+					</button>
+				</Link>
 			</div>
 		</div>
 	)
