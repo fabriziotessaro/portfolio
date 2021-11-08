@@ -24,7 +24,7 @@ export default function TechnologiesAndSkills(){
                 <h2>Technologies</h2>
                 <div className={`${styles.techStack}`}>
                     {technologies.map((tech) =>
-                        <TechCard key={tech} techName={tech}/>
+                        <TechCard key={tech} techName={tech} iconSize="50px" fontSize="24px"/>
                     )}
                     
                 </div>
