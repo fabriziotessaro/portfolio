@@ -1,11 +1,18 @@
 import Head from "next/head";
+import { useState } from "react";
 
 import projects from "../../myProjects.json";
 import styles from "../../styles/Project.module.css";
 import ProjectDetail from "../../components/ProjectDetail";
+import ProjectImages from "../../components/ProjectImages";
 
 export default function Home({ project }) {
-  
+  const [selectedImage, setSelectedImage] = useState(project.pictures[0]);
+
+  const handleImage = (img) => {
+    setSelectedImage(img);
+  };
+
   return (
     <>
       <Head>
@@ -14,7 +21,12 @@ export default function Home({ project }) {
       <main className={styles.container}>
         
         <ProjectDetail {...project} />
-        <div></div>
+        <ProjectImages 
+          selectedImage={selectedImage}
+          name={project.name}
+          imagesCollection={project.pictures}
+          handleImage={handleImage}
+        />
       </main>
     </>
   );
