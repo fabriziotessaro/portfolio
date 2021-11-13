@@ -19,12 +19,12 @@ export default function TechnologiesAndSkills(){
         "GitHub",
     ];
     return (
-        <section className={styles.container}>
+        <section id="technologies&skills" className={styles.container}>
             <div className={`${styles.card} ${styles.technologies}`}>
                 <h2>Technologies</h2>
                 <div className={`${styles.techStack}`}>
                     {technologies.map((tech) =>
-                        <TechCard key={tech} techName={tech} iconSize="50px" fontSize="24px"/>
+                        <TechCard key={tech} techName={tech} iconSize="40px" fontSize="20px"/>
                     )}
                     
                 </div>

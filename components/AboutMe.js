@@ -13,7 +13,7 @@ import me from "../public/images/me.jpg";
 
 export default function AboutMe(){
     return (
-        <section className={styles.container}>
+        <section id="aboutme" className={styles.container}>
             <div className={styles.aboutMeCard}>
                 <div className={styles.cardLeft}>
                     <div className={styles.photo}>

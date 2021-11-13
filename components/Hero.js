@@ -12,7 +12,7 @@ import image from "../public/images/Code typing-bro.svg";
 
 export default function Presentation(){
     return (
-        <section className={styles.container}>
+        <section id="home" className={styles.container}>
             <div className={styles.presentation}>
                 <div className={styles.name}>
                     <h3>Hello there! I&#8217;m</h3>
@@ -27,13 +27,26 @@ export default function Presentation(){
                     </h4>
                 </div>
                 <div className={styles.social}>
-                    <a href="https://linkedin.com/in/fabrizio-tessaro" target="_blank" rel="noreferrer" aria-label="Linkedin">
+                    <a 
+                        href="https://linkedin.com/in/fabrizio-tessaro" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        aria-label="Linkedin"
+                    >
                         <BsLinkedin className={styles.icon}/>
                     </a>
-                    <a href="https://github.com/fabriziotessaro" target="_blank" rel="noreferrer" aria-label="GitHub">
+                    <a 
+                        href="https://github.com/fabriziotessaro" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        aria-label="GitHub"
+                    >
                         <BsGithub className={styles.icon}/>
                     </a>
-                    <a href="mailto:fabriziotessaro02@gmail.com" aria-label="Email">
+                    <a 
+                        href="mailto:fabriziotessaro02@gmail.com" 
+                        aria-label="Email"
+                    >
                         <GrMail className={styles.icon}/>
                     </a>
                 </div>
@@ -42,7 +55,12 @@ export default function Presentation(){
                 </div>
             </div>
             <div className={styles.image}>
-                <a href="https://storyset.com/work" target="_blank" rel="noreferrer" aria-label="Work illustrations by Storyset">
+                <a 
+                    href="https://storyset.com/work" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    aria-label="Work illustrations by Storyset"
+                >
                     <Image 
                         src={image} 
                         alt="" 
