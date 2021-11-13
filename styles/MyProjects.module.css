@@ -5,11 +5,14 @@
 
     display: grid;
     grid-template-rows: 1fr 9fr;
+
+    padding-top: 100px;
 }
 
 .title{
     padding: 20px 40px;
     background-color: #EF2844;
+    box-shadow: 12px 12px 4px 1px rgba(161, 32, 50, 0.8);
 }
 .title h1{
     color: #030308;

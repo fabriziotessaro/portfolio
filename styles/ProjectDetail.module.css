@@ -30,6 +30,7 @@
 .groupTitle{
     padding: 10px 20px;
     background-color: #EF2844;
+    box-shadow: 6px 6px 4px 1px rgba(161, 32, 50, 0.8);
     width: 100%;
 }
 .groupTitle h3{

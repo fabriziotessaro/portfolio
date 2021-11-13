@@ -16,8 +16,8 @@
     width: 90%;
     height: 350px;
 
-    box-shadow: 6px 6px 4px 1px rgba(161, 32, 50, 0.8) !important;
-    border: 5px solid #EF2844 !important;
+    box-shadow: 6px 6px 4px 1px rgba(161, 32, 50, 0.8);
+    border: 5px solid #EF2844;
 }
 
 .imagesCollection{

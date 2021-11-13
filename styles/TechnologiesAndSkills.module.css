@@ -7,6 +7,7 @@
     grid-template-columns: 4fr 2fr;
     gap: 25px;
     padding: 50px;
+    padding-top: 90px;
 }
 
 .card{
@@ -18,7 +19,7 @@
     position: relative;
 
     background-color: #121212;
-    box-shadow: 0 0 5px 1px rgba(107, 15, 27, 0.2);
+    box-shadow: 6px 6px 4px 1px rgba(10, 10, 10, 0.8);
     border-radius: 8px;
     padding: 25px;
 }
@@ -30,7 +31,7 @@
 .techStack{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 35px;
     height: 100%;
 }
 
