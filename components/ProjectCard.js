@@ -5,7 +5,7 @@ import styles from "../styles/ProjectCard.module.css";
 //react-icons
 import { BsArrowRight } from "react-icons/bs";
 
-export default function ProjectCard({ id, name, shortDescription, pictures }){
+export default function ProjectCard({ id, name, shortDescription, pictures, placeholder }){
 	return (
 		<div className={styles.container}>
 			<div className={styles.picture}>
@@ -14,6 +14,8 @@ export default function ProjectCard({ id, name, shortDescription, pictures }){
                     layout="fill"
 			        src={pictures[0]}
 			        alt={name}
+			        placeholder="blur"
+          			blurDataURL={placeholder}
 				/>
 			</div>
 			<div className={styles.content}>

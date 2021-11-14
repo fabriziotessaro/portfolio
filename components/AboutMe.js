@@ -23,16 +23,31 @@ export default function AboutMe(){
                             quality={100}
                             layout="fill"
                             objectFit="cover"
+                            placeholder="blur"
+                            blurDataURL="/placeholder-2.png"
                         />
                     </div>
                     <div className={styles.social}>
-                        <a href="https://linkedin.com/in/fabrizio-tessaro" target="_blank" rel="noreferrer" aria-label="Linkedin">
+                        <a 
+                            href="https://linkedin.com/in/fabrizio-tessaro" 
+                            target="_blank" 
+                            rel="noreferrer" 
+                            aria-label="Linkedin"
+                        >
                             <BsLinkedin className={styles.icon}/>
                         </a>
-                        <a href="https://github.com/fabriziotessaro" target="_blank" rel="noreferrer" aria-label="GitHub">
+                        <a 
+                            href="https://github.com/fabriziotessaro" 
+                            target="_blank" 
+                            rel="noreferrer" 
+                            aria-label="GitHub"
+                        >
                             <BsGithub className={styles.icon}/>
                         </a>
-                        <a href="mailto:fabriziotessaro02@gmail.com" aria-label="Email">
+                        <a 
+                            href="mailto:fabriziotessaro02@gmail.com" 
+                            aria-label="Email"
+                        >
                             <GrMail className={styles.icon}/>
                         </a>
                     </div>
@@ -56,7 +71,11 @@ export default function AboutMe(){
                     </div>
                     
                     <div className={styles.cvButton}>
-                        <a href="/Fabrizio_Tessaro_CV.pdf">
+                        <a 
+                            href="/Fabrizio_Tessaro_CV.pdf"
+                            target="_blank" 
+                            rel="noreferrer" 
+                        >
                             <h2>Get Curriculum</h2> 
                             <BsArrowRight size={"2.5rem"}/>
                         </a>

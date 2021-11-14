@@ -96,18 +96,22 @@
 @keyframes fadeIn {
 	from {
 		opacity: 0;
+		top: 100vh;
 	}
 	to {
 		opacity: 1;
+		top: 0vh;
 	}
 }
 
 @keyframes fadeOut {
 	from {
 		opacity: 1;
+		top: 0vh;
 	}
 	to {
 		opacity: 0;
 		visibility: hidden;
+		top: 100vh;
 	}
 }

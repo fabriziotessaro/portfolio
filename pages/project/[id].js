@@ -26,6 +26,7 @@ export default function Home({ project }) {
           name={project.name}
           imagesCollection={project.pictures}
           handleImage={handleImage}
+          placeholder={project.placeholder}
         />
       </main>
     </>
