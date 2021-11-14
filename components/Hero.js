@@ -50,9 +50,6 @@ export default function Presentation(){
                         <GrMail className={styles.icon}/>
                     </a>
                 </div>
-                <div className={styles.contactBtn}>
-                    <button>Contact me</button>
-                </div>
             </div>
             <div className={styles.image}>
                 <a 
