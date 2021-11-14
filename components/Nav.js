@@ -5,7 +5,7 @@ import styles from "../styles/Nav.module.css";
 
 export default function Nav({ isMenuOpen, toggleMenu }){
 	return(
-		<header className={`${styles.navHeader} ${isMenuOpen && styles.nobg}`}>
+		<header className={`${styles.navHeader}`}>
 			<div className={styles.content}>
 				<Link href="/">Fabrizio Tessaro</Link>
 				<Hamburger
