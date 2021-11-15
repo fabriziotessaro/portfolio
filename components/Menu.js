@@ -20,31 +20,34 @@ export default function Menu({ isMenuVisible, toggleMenu }){
 							<h2>Social</h2>
 						</div>
 						<div className={styles.social}>
-							<a 
+							<Link 
 								href="https://linkedin.com/in/fabrizio-tessaro" 
 								target="_blank" 
 								rel="noreferrer" 
 								aria-label="Linkedin"
+								passHref
 								onClick={() => toggleMenu()}
 							>
 		                        <BsLinkedin className={styles.icon}/>
-		                    </a>
-		                    <a 
+		                    </Link>
+		                    <Link 
 		                    	href="https://github.com/fabriziotessaro" 
 		                    	target="_blank" 
 		                    	rel="noreferrer" 
 		                    	aria-label="GitHub"
+		                    	passHref
 		                    	onClick={() => toggleMenu()}
 		                    >
 		                        <BsGithub className={styles.icon}/>
-		                    </a>
-		                    <a 
+		                    </Link>
+		                    <Link
 		                    	href="mailto:fabriziotessaro02@gmail.com" 
 		                    	aria-label="Email"
+		                    	passHref
 		                    	onClick={() => toggleMenu()}
 		                    >
 		                        <GrMail className={styles.icon}/>
-		                    </a>
+		                    </Link>
 		                </div>
 					</div>
 					<div className={styles.menuGroup}>
@@ -52,25 +55,25 @@ export default function Menu({ isMenuVisible, toggleMenu }){
 							<h2>Navigation</h2>
 						</div>
 						<div className={styles.navigation}>
-							<Link href="/#home">
+							<Link href="/#home" passHref>
 								<div className={styles.option} onClick={() => toggleMenu()}>
 									<BsArrowRight size={"1.4rem"}/>
 									Home
 								</div>
 							</Link>
-							<Link href="/#aboutme">
+							<Link href="/#aboutme" passHref>
 								<div className={styles.option} onClick={() => toggleMenu()}>
 									<BsArrowRight size={"1.4rem"}/>
 									About me
 								</div>
 							</Link>
-							<Link href="/#technologies&skills">
+							<Link href="/#technologies&skills" passHref>
 								<div className={styles.option} onClick={() => toggleMenu()}>
 									<BsArrowRight size={"1.4rem"}/>
 									Technologies and Skills
 								</div>
 							</Link>
-							<Link href="/#myprojects">
+							<Link href="/#myprojects" passHref>
 								<div className={styles.option} onClick={() => toggleMenu()}>
 									<BsArrowRight size={"1.4rem"}/>
 									My projects
