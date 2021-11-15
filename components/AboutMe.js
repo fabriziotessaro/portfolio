@@ -59,13 +59,14 @@ export default function AboutMe(){
                             <h3>I&#8220;m Fabrizio Tessaro</h3>
                         </div>
                         <div className={styles.description}>
-                            <p>Me destaco por mi optimismo, no importa que problema o dificultad enfrente siempre pondré buena cara y trabajaré para superarlo. Me gusta aplicar esto en mi ámbito profesional como desarrollador web, siempre aprendiendo nuevas tecnologías y maneras de resolver problemas.
+                            <p>
+                                I stand out for my optimism, no matter what problem or difficulty I face, I will always put on a good face and work to overcome it. I like to apply this in my professional field as a web developer, always learning new technologies and ways to solve problems.
                                 <br/><br/>
-                                El desarrollo web me encanta, es un mundo lleno de posibilidades que siempre está cambiando y evolucionando, brindando millones de servicios y soluciones a miles de millones de personas.
+                                I love web development, it is a world full of possibilities that is always changing and evolving, providing millions of services and solutions to billions of people.
                                 <br/><br/>
-                                Actualmente, domino el MERN Stack, con MongoDB/PostrgreSQL, ReactJS, ExpressJS y NodeJS.
+                                Currently, I have mastered the MERN Stack, with MongoDB / PostrgreSQL, ReactJS, ExpressJS, and NodeJS.
                                 <br/><br/>
-                                Mis intereses son: no dejar de instruirme y aprender cosas nuevas, así como también enfrentarme a distintos y difíciles desafíos que me llenen de experiencia y con los cuales poder demostrar todo de lo que soy capaz. Me gustaría encontrar un lugar en el que poder hacer todo eso acompañado de un equipo con el que poder trabajar codo a codo.
+                                My interests are: no stop instructing myself and learning new things, as well as facing different and difficult challenges that fill me with experience and with which I can demonstrate everything that I am capable of. I would like to find a place where I can do all that accompanied by a team with which I can work side by side.
                             </p>
                         </div>
                     </div>
