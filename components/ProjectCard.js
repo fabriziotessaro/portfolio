@@ -22,7 +22,7 @@ export default function ProjectCard({ id, name, shortDescription, pictures, plac
 				<h3>{name}</h3>
 				<div className={styles.border}></div>
 				<p>{shortDescription}</p>
-				<Link href={`project/${id}`}>
+				<Link href={`project/${id}`} passHref>
 					<button>
 						View more
 						<BsArrowRight size={"2rem"}/>

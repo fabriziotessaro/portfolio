@@ -56,7 +56,7 @@ export default function AboutMe(){
                     <div className={styles.information}>
                         <div className={styles.title}>
                             <h2>About Me</h2>
-                            <h3>I'm Fabrizio Tessaro</h3>
+                            <h3>I&#8220;m Fabrizio Tessaro</h3>
                         </div>
                         <div className={styles.description}>
                             <p>Me destaco por mi optimismo, no importa que problema o dificultad enfrente siempre pondré buena cara y trabajaré para superarlo. Me gusta aplicar esto en mi ámbito profesional como desarrollador web, siempre aprendiendo nuevas tecnologías y maneras de resolver problemas.
